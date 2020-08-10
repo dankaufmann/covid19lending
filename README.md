@@ -7,4 +7,4 @@
 
 **Keywords:** Government-backed lending, targeted lending, unemployment, Covid-19
 
-**Recommended citation:** Daniel [Kaufmann](https://dankaufmann.com): "Does government-backed lending prevent unemployment? An assessment of the Swiss Covid--19 lending program", IRENE Working Paper No., University of Neuchâtel, [github.com/dankaufmann/covid19lending](https://[github.com/dankaufmann/covid19lending)
+**Recommended citation:** Daniel [Kaufmann](https://dankaufmann.com): "Does government-backed lending prevent unemployment? An assessment of the Swiss Covid--19 lending program", IRENE Working Paper No., University of Neuchâtel, [github.com/dankaufmann/covid19lending](https://github.com/dankaufmann/covid19lending)
