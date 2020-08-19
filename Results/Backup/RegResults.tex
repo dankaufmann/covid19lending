@@ -1,0 +1,58 @@
+
+% Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Tue, Aug 11, 2020 - 13:27:12
+\begin{table}[!htbp] \centering 
+  \caption{Effect of loan volume on unemployment rate} 
+  \label{tab:Results} 
+\footnotesize 
+\begin{tabular}{@{\extracolsep{5pt}}lcccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+\\[-1.8ex] & \multicolumn{6}{c}{Dep. var.: Change unemployment rate June 2020 to previous year} \\ 
+ & OLS & OLS & IV & IV & IV & IV \\ 
+\\[-1.8ex] & (1) & (2) & (3) & (4) & (5) & (6)\\ 
+\hline \\[-1.8ex] 
+ \multirow{2}{4.5cm}{Volume (in CHF 100,000)} & 0.03 & $-$0.12$^{***}$ & $-$0.32$^{**}$ & $-$0.23$^{***}$ & $-$0.30$^{***}$ & $-$0.19$^{***}$ \\ 
+  & (0.04) & (0.04) & (0.14) & (0.07) & (0.12) & (0.04) \\ 
+  & & & & & & \\ 
+ \multirow{2}{4.5cm}{Covid-19 cases} &  & $-$0.06 & $-$0.03 & $-$0.04 &  &  \\ 
+  &  & (0.17) & (0.24) & (0.20) &  &  \\ 
+  & & & & & & \\ 
+ \multirow{2}{4.5cm}{Firms in lockdown} &  & $-$0.62 & $-$0.27 & $-$0.43 &  &  \\ 
+  &  & (0.44) & (0.49) & (0.47) &  &  \\ 
+  & & & & & & \\ 
+ \multirow{2}{4.5cm}{Non-permanent residents} &  & 0.18$^{***}$ & 0.24$^{***}$ & 0.21$^{***}$ & 0.21$^{***}$ & 0.18$^{***}$ \\ 
+  &  & (0.05) & (0.08) & (0.07) & (0.05) & (0.03) \\ 
+  & & & & & & \\ 
+ \multirow{2}{4.5cm}{Change employees with short-time work (in April, to previous year)} &  & 0.01$^{**}$ & 0.03$^{**}$ & 0.02$^{**}$ & 0.02$^{***}$ & 0.02$^{***}$ \\ 
+  &  & (0.004) & (0.01) & (0.01) & (0.01) & (0.003) \\ 
+  & & & & & & \\ 
+ \multirow{2}{4.5cm}{Number bankruptcies (in 2019)} &  & 1.43$^{***}$ & 1.69$^{***}$ & 1.58$^{***}$ & 1.94$^{***}$ & 1.64$^{***}$ \\ 
+  &  & (0.44) & (0.66) & (0.48) & (0.66) & (0.48) \\ 
+  & & & & & & \\ 
+ \multirow{2}{4.5cm}{Competitiveness (0-1, in 2019)} &  & $-$0.001 & 0.01 & 0.004 &  &  \\ 
+  &  & (0.003) & (0.01) & (0.004) &  &  \\ 
+  & & & & & & \\ 
+ \multirow{2}{4.5cm}{Border Canton (0/1)} &  & 0.002$^{*}$ & 0.0003 & 0.001 &  &  \\ 
+  &  & (0.001) & (0.001) & (0.001) &  &  \\ 
+  & & & & & & \\ 
+ Constant & 0.01$^{***}$ & 0.01$^{***}$ & 0.002 & 0.01$^{*}$ & 0.01$^{***}$ & 0.01$^{***}$ \\ 
+  & (0.002) & (0.003) & (0.004) & (0.003) & (0.002) & (0.001) \\ 
+  & & & & & & \\ 
+Instrument &  &  & Share SME & Max. supply & Share SME & Max. supply \\ 
+Irrel. instrument (stat.) &  &  & 17.21 &  4.15 & 19.33 &  0.26 \\ 
+Irrel. instrument (p-val.) &  &  & 0.00 & 0.06 & 0.00 & 0.62 \\ 
+Weak instrument (stat.) &  &  & 12.99 & 16.51 & 22.10 & 22.22 \\ 
+Weak instrument (p-val.) &  &  & 0.00 & 0.00 & 0.00 & 0.00 \\ 
+\textit{N} & 26 & 26 & 26 & 26 & 26 & 26 \\ 
+R$^{2}$ & 0.01 & 0.79 & 0.65 & 0.75 & 0.57 & 0.70 \\ 
+Adjusted R$^{2}$ & $-$0.03 & 0.70 & 0.49 & 0.63 & 0.49 & 0.65 \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Notes:} & \multicolumn{6}{r}{$^{***}$Significant at the 1 percent level.} \\ 
+ & \multicolumn{6}{r}{$^{**}$Significant at the 5 percent level.} \\ 
+ & \multicolumn{6}{r}{$^{*}$Significant at the 10 percent level.} \\ 
+ & \multicolumn{6}{r}{Heteroskedasticity-consistent standard errors in parentheses.} \\ 
+ & \multicolumn{6}{r}{All variables normalized by the active population in 2018.} \\ 
+\end{tabular} 
+\end{table} 

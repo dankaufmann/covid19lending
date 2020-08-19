@@ -1,0 +1,70 @@
+
+% Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Tue, Aug 11, 2020 - 13:27:17
+\begin{table}[!htbp] \centering 
+  \caption{Robustness tests} 
+  \label{tab:Robust} 
+\footnotesize 
+\begin{tabular}{@{\extracolsep{5pt}}lccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+\\[-1.8ex] & \multicolumn{5}{c}{Dep. var.: Change unemployment rate June 2020 to previous year} \\ 
+ & IV & IV & IV & IV & OLS \\ 
+\\[-1.8ex] & (1) & (2) & (3) & (4) & (5)\\ 
+\hline \\[-1.8ex] 
+ \multirow{2}{4.5cm}{Volume (in CHF 100,000)} & $-$0.18$^{*}$ & $-$0.27$^{***}$ & $-$0.24$^{***}$ & $-$0.85 & $-$0.17$^{***}$ \\ 
+  & (0.10) & (0.09) & (0.07) & (0.63) & (0.06) \\ 
+  & & & & & \\ 
+ \multirow{2}{4.5cm}{First principal component} & 0.002$^{***}$ &  &  & 0.005$^{***}$ & 0.003$^{***}$ \\ 
+  & (0.001) &  &  & (0.002) & (0.0004) \\ 
+  & & & & & \\ 
+ \multirow{2}{4.5cm}{Second principal component} & 0.0003 &  &  & 0.001 & 0.001$^{**}$ \\ 
+  & (0.0004) &  &  & (0.001) & (0.0003) \\ 
+  & & & & & \\ 
+ \multirow{2}{4.5cm}{Covid-19 cases} &  & $-$0.04 & 0.05 &  &  \\ 
+  &  & (0.22) & (0.21) &  &  \\ 
+  & & & & & \\ 
+ \multirow{2}{4.5cm}{Firms in lockdown} &  & $-$0.36 & $-$0.36 &  &  \\ 
+  &  & (0.47) & (0.44) &  &  \\ 
+  & & & & & \\ 
+ \multirow{2}{4.5cm}{Non-permanent residents} &  &  & $-$0.03 &  &  \\ 
+  &  &  & (0.03) &  &  \\ 
+  & & & & & \\ 
+ \multirow{2}{4.5cm}{Change employees with short-time work (in April, to previous year)} &  & 0.23$^{***}$ & 0.21$^{***}$ &  &  \\ 
+  &  & (0.07) & (0.07) &  &  \\ 
+  & & & & & \\ 
+ \multirow{2}{4.5cm}{Number bankruptcies (in 2019)} &  & 0.02$^{**}$ & 0.02$^{**}$ &  &  \\ 
+  &  & (0.01) & (0.01) &  &  \\ 
+  & & & & & \\ 
+ \multirow{2}{4.5cm}{Competitiveness (0-1, in 2019)} &  & 1.62$^{***}$ & 0.99 &  &  \\ 
+  &  & (0.54) & (0.80) &  &  \\ 
+  & & & & & \\ 
+ \multirow{2}{4.5cm}{Border Canton (0/1)} &  & 0.01 & 0.003 &  &  \\ 
+  &  & (0.004) & (0.004) &  &  \\ 
+  & & & & & \\ 
+ BorderC &  & 0.001 & 0.001 &  &  \\ 
+  &  & (0.001) & (0.001) &  &  \\ 
+  & & & & & \\ 
+ Constant & 0.02$^{***}$ & 0.004 & 0.02 & 0.04$^{**}$ & 0.02$^{***}$ \\ 
+  & (0.003) & (0.003) & (0.01) & (0.02) & (0.002) \\ 
+  & & & & & \\ 
+Instrument & Share SME & Both & Both and Plus & Share SME & Share SME \\ 
+Irrel. instrument (stat.) &  9.22 & 14.48 & 12.30 & 12.33 &  \\ 
+Irrel. instrument (p-val.) & 0.01 & 0.00 & 0.00 & 0.00 &  \\ 
+Weak instrument (stat.) & 42.18 & 10.26 &  8.56 &  2.62 &  \\ 
+Weak instrument (p-val.) & 0.00 & 0.00 & 0.00 & 0.12 &  \\ 
+Overident. restrictions (stat.) &  & 1.66 & 2.32 &  &  \\ 
+Overident. restrictions (p-val.) &  & 0.20 & 0.31 &  &  \\ 
+\textit{N} & 26 & 26 & 26 & 23 & 23 \\ 
+R$^{2}$ & 0.58 & 0.72 & 0.76 & 0.26 & 0.81 \\ 
+Adjusted R$^{2}$ & 0.52 & 0.58 & 0.62 & 0.15 & 0.78 \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Notes:} & \multicolumn{5}{r}{$^{***}$Significant at the 1 percent level.} \\ 
+ & \multicolumn{5}{r}{$^{**}$Significant at the 5 percent level.} \\ 
+ & \multicolumn{5}{r}{$^{*}$Significant at the 10 percent level.} \\ 
+ & \multicolumn{5}{r}{Heteroskedasticity-consistent standard errors in parentheses.} \\ 
+ & \multicolumn{5}{r}{All variables normalized by the active population in 2018.} \\ 
+ & \multicolumn{5}{r}{The fourth and fifth column exclude the Cantons Zug, Ticino and Geneva} \\ 
+\end{tabular} 
+\end{table} 
